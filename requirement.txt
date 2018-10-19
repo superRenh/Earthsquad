@@ -1,0 +1,12 @@
+certifi==2018.10.15
+Click==7.0
+Flask==1.0.2
+Flask-Script==2.0.6
+Flask-Uploads==0.2.1
+itsdangerous==0.24
+Jinja2==2.10
+MarkupSafe==1.0
+Pillow==5.3.0
+strutil==0.2.1
+Werkzeug==0.14.1
+wincertstore==0.2
