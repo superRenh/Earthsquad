@@ -1,7 +1,7 @@
-# Earthsquad-Montage Mosaic base on thousands of NASA Astronomical images
+# Earthsquad-Montage Mosaic based on thousands of NASA Astronomical images
 This is the project of NASA Hackthon2018
 </br>
-<img src="https://github.com/superRenh/Earthsquad/blob/master/crab%20nebula32.jpg" width="50%" height="50%" style="float.left">
+<img src="https://github.com/superRenh/Earthsquad/blob/master/crab%20nebula32.jpg" width="80%" height="80%" style="float.left">
 </br>
 Visit our space app page:https://2018.spaceappschallenge.org/challenges/help-others-discover-earth/artify-earth/teams/earthsquad/project
 </br>
@@ -12,7 +12,7 @@ Our website:https://rensyuan.wixsite.com/earthsquad
 `pip install flask`
 2. Install googlimagesdownload</br>
 `pip install googleimagesdownloads`</br>
-others: <a href="https://github.com/superRenh/Earthsquad/blob/master/requirement.txt">Requirement.txt</a>
+3. others: <a href="https://github.com/superRenh/Earthsquad/blob/master/requirement.txt">Requirement.txt</a>
 ## Crawler NASA Image and Video Library
 
 # Reference
