@@ -16,6 +16,10 @@ Our website:https://rensyuan.wixsite.com/earthsquad
 ## Crawler NASA Image and Video Library
 <a href="https://images.nasa.gov/">NASA Image and Video Library</a></br>
 <a href="https://images.nasa.gov/docs/images.nasa.gov_api_docs.pdf">API DOC</a></br>
+### Command line
+`python NASAImageCrawler.py -k "earth" -p 3`</br>
+### Command line parameter
+
 ## Create your own Montage Mosaic and uploaded interface of Web
 # Reference
 https://github.com/hardikvasa/google-images-download
