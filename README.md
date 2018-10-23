@@ -6,7 +6,8 @@ This is the project of NASA Hackthon2018
 Visit our space app page:https://2018.spaceappschallenge.org/challenges/help-others-discover-earth/artify-earth/teams/earthsquad/project
 </br>
 Our website:https://rensyuan.wixsite.com/earthsquad
-
+## 1. Crawler NASA Image and Video Library
+  pip install flask 
 # Reference
 https://github.com/hardikvasa/google-images-download
 </br>
