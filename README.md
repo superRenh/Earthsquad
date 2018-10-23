@@ -25,12 +25,13 @@ Our website:https://rensyuan.wixsite.com/earthsquad
 ### Command line parameters 參數說明
 <ul>
   <li>-k --keywords keywords for search 想要搜尋的圖片關鍵字</li>
-  <li>-p --pages amounts of pages download, 100 images per page 想要下載的頁數，每一頁有100張照片</li>
+  <li>-p --pages amounts of pages download, 100 images per page 想要下載的頁數，每一頁有100張圖片</li>
 </ul>
 
 ## Create your own Montage Mosaic and uploaded interface of Web
+Already download 6806 NASA Images to `output32` for creating Montage Mosaic, unless you want to create your own mosaic block database, or you can skip step "Crawler NASA Image and Video Library".已經下載6806張太空圖片到`output32`資料夾作為馬賽克資料庫，除非你想創造自己的資料庫，否則可以跳過"爬取NASA公開圖庫"這個步驟。</br>
 ### Folders 資料夾說明
-`output32`: 6806 images Mosaic database, resize to 32\*32 pixel   6806張NASA太空照片，並resize為32\*32 pixel的馬賽克塊</br>
+`output32`: 6806 images Mosaic database, resize to 32\*32 pixel   6806張NASA太空圖片，並resize為32\*32 pixel的馬賽克塊</br>
 `download`:</br>
 `img`:
 # Reference
