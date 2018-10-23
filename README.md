@@ -22,6 +22,10 @@ Our website:https://rensyuan.wixsite.com/earthsquad
 ### Command line 命令提示字元
 `python NASAImageCrawler.py -k "earth" -p 3`</br>
 ### Command line parameters 參數說明
+<ul>
+  <li>-k --keywords keywords for search 想要搜尋的圖片關鍵字</li>
+  <li>-p --pages amounts of pages download, 100 images per page 想要下載的頁數，每一頁有100張照片</li>
+</ul>
 
 ## Create your own Montage Mosaic and uploaded interface of Web 
 # Reference
