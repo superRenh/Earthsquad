@@ -29,8 +29,8 @@ Our website:https://rensyuan.wixsite.com/earthsquad
 </ul>
 
 ## Create your own Montage Mosaic and uploaded interface of Web
-`output32`: 6806 images Mosaic database, resize to 32*32 pixel   6806張NASA太空照片，並resize為32*32 pixel的馬賽克塊</br>
-`download`:
+`output32`: 6806 images Mosaic database, resize to 32\*32 pixel   6806張NASA太空照片，並resize為32\*32 pixel的馬賽克塊</br>
+`download`:</br>
 `img`:
 # Reference
 https://github.com/hardikvasa/google-images-download
