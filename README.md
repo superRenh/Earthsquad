@@ -21,7 +21,7 @@ Our website:https://rensyuan.wixsite.com/earthsquad
 
 ### Command line 命令提示字元
 `python NASAImageCrawler.py -k "earth" -p 3`</br>
-圖片默認儲存路徑為./downloads/
+圖片默認儲存路徑為 ./downloads/
 ### Command line parameters 參數說明
 <ul>
   <li>-k --keywords keywords for search 想要搜尋的圖片關鍵字</li>
@@ -29,6 +29,7 @@ Our website:https://rensyuan.wixsite.com/earthsquad
 </ul>
 
 ## Create your own Montage Mosaic and uploaded interface of Web
+### Folders 資料夾說明
 `output32`: 6806 images Mosaic database, resize to 32\*32 pixel   6806張NASA太空照片，並resize為32\*32 pixel的馬賽克塊</br>
 `download`:</br>
 `img`:
