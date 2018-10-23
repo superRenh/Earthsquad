@@ -8,10 +8,10 @@ Visit our space app page:https://2018.spaceappschallenge.org/challenges/help-oth
 Our website:https://rensyuan.wixsite.com/earthsquad
 
 ## Environment setup
-1. Install web framework-Flask
-                pip install flask
-2. Install googlimagesdownload
-                pip install googleimagesdownloads
+1. Install web framework-Flask</br>
+`pip install flask`
+2. Install googlimagesdownload</br>
+`pip install googleimagesdownloads`
 </br>
 others: <a href="https://github.com/superRenh/Earthsquad/blob/master/requirement.txt">Requirement.txt</a>
 ## Crawler NASA Image and Video Library
