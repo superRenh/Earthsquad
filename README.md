@@ -18,7 +18,7 @@ Our website:https://rensyuan.wixsite.com/earthsquad
   <li><a href="https://images.nasa.gov/">NASA Image and Video Library</a></li></br>
   <li><a href="https://images.nasa.gov/docs/images.nasa.gov_api_docs.pdf">API DOC</a></li>
 </ul>
-</br>
+
 ### Command line 命令提示字元
 `python NASAImageCrawler.py -k "earth" -p 3`</br>
 ### Command line parameters 參數說明
