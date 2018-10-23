@@ -9,12 +9,12 @@ Our website:https://rensyuan.wixsite.com/earthsquad
 
 ## Environment setup
 1. Install web framework-Flask
-        pip install flask
+                pip install flask
 2. Install googlimagesdownload
-        pip install googleimagesdownloads
-<br/>
+                pip install googleimagesdownloads
+</br>
 others: <a href="https://github.com/superRenh/Earthsquad/blob/master/requirement.txt">Requirement.txt</a>
-## 1. Crawler NASA Image and Video Library
+## Crawler NASA Image and Video Library
 
 # Reference
 https://github.com/hardikvasa/google-images-download
