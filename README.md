@@ -1,4 +1,4 @@
-# Earthsquad-Montage Mosaic base on thousands of NASA Astronomical image
+# Earthsquad-Montage Mosaic base on thousands of NASA Astronomical images
 This is the project of NASA Hackthon2018
 
 </br>
