@@ -7,7 +7,7 @@ Visit our space app page:https://2018.spaceappschallenge.org/challenges/help-oth
 </br>
 Our website:https://rensyuan.wixsite.com/earthsquad
 
-## Environment setup
+## Environment setup(Python3.6)
 1. Install web framework-Flask</br>
 `pip install flask`
 2. Install googlimagesdownload</br>
