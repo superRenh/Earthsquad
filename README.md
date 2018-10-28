@@ -1,4 +1,4 @@
-# Earthsquad-Montage Mosaic based on thousands of NASA Astronomical images by Web(以Web為上傳介面，使用6000多張NASA太空照片，製作成一張蒙太奇大圖)
+# Earthsquad-Montage Mosaic based on thousands of NASA Astronomical images(以Web為上傳介面，使用6000多張NASA太空照片，製作成一張蒙太奇大圖)
 <img src="https://github.com/superRenh/Earthsquad/blob/master/crab%20nebula32.jpg" width="80%" height="80%" style="float.left">
 </br>
 This is the project of NASA Hackthon2018
@@ -33,7 +33,7 @@ Already download 6806 NASA Images to `output32` for creating Mosaic block, unles
 已經下載6806張太空圖片到`output32`資料夾作為馬賽克資料庫，除非你想創造自己的資料庫，否則可以跳過"爬取NASA公開圖庫"這個步驟。</br>
 ### Folders 資料夾說明
 `output32`: 6806 NASA astronomical images, and resize to 32\*32 pixel to create Mosaic block database.</br>   
-            6806張NASA太空圖片，並resize為32\*32 pixel的馬賽克塊</br>
+ 6806張NASA太空圖片，並resize為32\*32 pixel的馬賽克塊</br>
 `download`:images that upload from web. 從web介面上傳的圖片</br>
 `img`: result of Montage Mosaic consist of thousands mosaic block based on the uploaded image.
 # Reference
