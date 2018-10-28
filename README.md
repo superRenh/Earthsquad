@@ -46,14 +46,15 @@ Already download 6806 NASA Images to `output32` for creating Mosaic block, unles
 &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;創建蒙太奇主程式，並過濾暗色背景(hsv:v<0.05)讓整體圖片效果呈現更好</br>
 `app.py:` The main module of Flask web Servic 網頁介面主程式
 ### Remote Connections to Flask Web Service 允許遠端訪問Flask web
-Make sure that your HTTP service is listenning on everywhere(0.0.0.0:80)設定IP为 0.0.0.0(所有用戶都可以訪問)，port最好為80(瀏覽器訪問不指定port)</br>
-"host='0.0.0.0',port=80,debug=True"</br>
+Make sure that your HTTP service is listenning on everywhere(0.0.0.0:80))</br>
+設定IP为 0.0.0.0(所有用戶都可以訪問)，port最好為80(瀏覽器訪問不指定port)</br>
+`"host='0.0.0.0',port=80,debug=True"`</br>
 or if want to limit to local access 或是限制本地端訪問</br>
-"host='127.0.0.1',port=5000,debug=False"
+`"host='127.0.0.1',port=5000,debug=False"`
 ### Command line 命令提示字元
 `python app.py`
 ### Result 結果展示
-Upload the image and create 
+Upload the image and show the result上傳底圖並顯示結果
 # Reference
 https://github.com/hardikvasa/google-images-download</br>
 https://github.com/ThomasHuai/puzzle
