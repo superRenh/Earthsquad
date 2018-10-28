@@ -34,21 +34,25 @@ default saving directory `./downloads/` 圖片默認儲存路徑為 `./downloads
 </ul>
 
 ## Create your own Montage Mosaic and uploaded interface of Web創建蒙太奇大圖及web上傳介面
-Already download 6806 NASA Images to `output32` for creating Mosaic block, unless you want to create your own mosaic block database, or you can skip the step of "Crawler NASA Image and Video Library".</br>
-已經下載6806張太空圖片到`output32`資料夾作為馬賽克資料庫，除非你想創造自己的資料庫，否則可以跳過"爬取NASA公開圖庫"這個步驟。</br>
+Already download 6806 NASA Images to `output32` for creating Mosaic block, unless you want to create your own mosaic block database, or you can skip the step of "Crawler NASA Image and Video Library"</br>
+已經下載6806張太空圖片到`output32`資料夾作為馬賽克資料庫，除非你想創造自己的資料庫，否則可以跳過"爬取NASA公開圖庫"這個步驟</br>
 ### Folders and modules 資料夾及模塊說明
-`output32:` 6806 NASA astronomical images, and resize to 32\*32 pixel to create Mosaic block database.</br>
-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;6806張NASA太空圖片，並resize為32\*32 pixel的馬賽克塊。</br>
-`download:`images that upload from web. 從web介面上傳的圖片。</br>
-`img:` result of Montage Mosaic consist of thousands mosaic block based on the uploaded image.</br>
-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;存放最後製作好的蒙太奇大圖。</br>
-`puzzle.py:`The main module to create Montage創建蒙太奇主程式</br>
-`app.py:`
+`output32:` 6806 NASA astronomical images, and resize to 32\*32 pixel to create Mosaic block database</br>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;6806張NASA太空圖片，並resize為32\*32 pixel的馬賽克塊</br>
+`download:`images that upload from web 從web介面上傳的圖片</br>
+`img:` result of Montage Mosaic consist of thousands mosaic block based on the uploaded image</br>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;存放最後製作好的蒙太奇大圖</br>
+`puzzle.py:`The main module to create Montage and exclude the dark pixel(hsv:v<0.01) to make the clear image創建蒙太奇主程式，並過濾暗色背景(hsv:v<0.01)讓整體圖片效果呈現更好</br>
+`app.py:` The main module of Flask web Servic 網頁介面主程式
 ### Remote Connections to Flask Web Service 允許遠端訪問Flask web
-
+Make sure that your HTTP service is listenning on everywhere(0.0.0.0:80)設定IP为 0.0.0.0(所有用戶都可以訪問)，port最好為80(瀏覽器訪問不指定port)</br>
+`app.run(host='0.0.0.0',port=80,debug=True)`</br>
+or if want to limit to local access 或是限制本地端訪問</br>
+`app.run(host='0.0.0.0',port=80,debug=False)`
 ### Command line 命令提示字元
-
+`python app.py`
 ### Result 結果展示
+
 # Reference
 https://github.com/hardikvasa/google-images-download</br>
 https://github.com/ThomasHuai/puzzle
