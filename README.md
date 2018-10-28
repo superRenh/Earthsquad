@@ -15,8 +15,8 @@ A composite picture made by combining several separate pictures.</br>
 `pip install flask`
 2. Install googlimagesdownload</br>
 `pip install googleimagesdownloads`</br>
-3. Install Pillows</br>
-`pip install Pillows`</br>
+3. Install Pillow</br>
+`pip install Pillow`</br>
 4. others: <a href="https://github.com/superRenh/Earthsquad/blob/master/requirement.txt">Requirement.txt</a>
 ## Crawler NASA Image and Video Library爬取NASA公開圖庫
 <ul>
