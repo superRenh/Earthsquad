@@ -1,7 +1,7 @@
 # Earthsquad-Montage Mosaic based on thousands of NASA Astronomical images(以Web為上傳介面，使用6000多張NASA太空照片，製作成一張蒙太奇大圖)
-This is the project of NASA Hackthon2018
-</br>
 <img src="https://github.com/superRenh/Earthsquad/blob/master/crab%20nebula32.jpg" width="80%" height="80%" style="float.left">
+</br>
+This is the project of NASA Hackthon2018
 </br>
 Visit our space app page:https://2018.spaceappschallenge.org/challenges/help-others-discover-earth/artify-earth/teams/earthsquad/project
 </br>
