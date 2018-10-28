@@ -42,13 +42,14 @@ Already download 6806 NASA Images to `output32` for creating Mosaic block, unles
 `download:`images that upload from web 從web介面上傳的圖片</br>
 `img:` result of Montage Mosaic consist of thousands mosaic block based on the uploaded image</br>
 &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;存放最後製作好的蒙太奇大圖</br>
-`puzzle.py:`The main module to create Montage and exclude the dark pixel(hsv:v<0.01) to make the clear image創建蒙太奇主程式，並過濾暗色背景(hsv:v<0.01)讓整體圖片效果呈現更好</br>
+`puzzle.py:`The main module to create Montage and exclude the dark pixel(hsv:v<0.01) to make the clear image</br>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;創建蒙太奇主程式，並過濾暗色背景(hsv:v<0.01)讓整體圖片效果呈現更好</br>
 `app.py:` The main module of Flask web Servic 網頁介面主程式
 ### Remote Connections to Flask Web Service 允許遠端訪問Flask web
 Make sure that your HTTP service is listenning on everywhere(0.0.0.0:80)設定IP为 0.0.0.0(所有用戶都可以訪問)，port最好為80(瀏覽器訪問不指定port)</br>
-`app.run(host='0.0.0.0',port=80,debug=True)`</br>
+`host='0.0.0.0',port=80,debug=True`</br>
 or if want to limit to local access 或是限制本地端訪問</br>
-`app.run(host='0.0.0.0',port=80,debug=False)`
+`host='0.0.0.0',port=80,debug=False`
 ### Command line 命令提示字元
 `python app.py`
 ### Result 結果展示
