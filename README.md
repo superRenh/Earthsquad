@@ -54,7 +54,8 @@ or if want to limit to local access 或是限制本地端訪問</br>
 ### Command line 命令提示字元
 `python app.py`
 ### Result 結果展示
-Upload the image and show the result上傳底圖並顯示結果
+Upload the image and show the result上傳底圖並顯示結果</br>
+<img src="https://github.com/superRenh/Earthsquad/blob/master/theResult.JPG" width="80%" height="80%" style="float.left">
 # Reference
 https://github.com/hardikvasa/google-images-download</br>
 https://github.com/ThomasHuai/puzzle
