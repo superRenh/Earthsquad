@@ -8,8 +8,8 @@ This is the project of NASA Hackthon2018:
 <li>Our website:https://rensyuan.wixsite.com/earthsquad</li>
 <li>What is Montage Mosaic? 什麼是蒙太奇照片拼圖?</br>
 A composite picture made by combining several separate pictures.</br>
-簡單來說，所謂蒙太奇拼圖效果，就是指用很多張小圖片拼組成一張全新的圖片。
-</ul>
+簡單來說，所謂蒙太奇拼圖效果，就是指用很多張小圖片拼組成一張全新的圖片。</ul>
+
 ## Environment setup環境設定(Python3.6)
 1. Install web framework-Flask</br>
 `pip install flask`
