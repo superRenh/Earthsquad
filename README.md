@@ -31,11 +31,11 @@ default saving directory `./downloads/` 圖片默認儲存路徑為 `./downloads
   <li>-p --amounts of pages downloaded, 100 images per page 總下載頁數，每一頁有100張圖片</li>
 </ul>
 
-## Create your own Montage Mosaic and uploaded interface of Web
+## Create your own Montage Mosaic and uploaded interface of Web創建蒙太奇大圖及web上傳介面
 Already download 6806 NASA Images to `output32` for creating Mosaic block, unless you want to create your own mosaic block database, or you can skip the step of "Crawler NASA Image and Video Library".</br>
 已經下載6806張太空圖片到`output32`資料夾作為馬賽克資料庫，除非你想創造自己的資料庫，否則可以跳過"爬取NASA公開圖庫"這個步驟。</br>
 ### Folders and modules 資料夾及模塊說明
-`output32:` 6806 NASA astronomical images, and resize to 32\*32 pixel to create Mosaic block database.
+`output32:` 6806 NASA astronomical images, and resize to 32\*32 pixel to create Mosaic block database.</br>
             6806張NASA太空圖片，並resize為32\*32 pixel的馬賽克塊。</br>
 `download:`images that upload from web. 從web介面上傳的圖片。</br>
 `img:` result of Montage Mosaic consist of thousands mosaic block based on the uploaded image.
