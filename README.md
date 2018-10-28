@@ -15,7 +15,9 @@ A composite picture made by combining several separate pictures.</br>
 `pip install flask`
 2. Install googlimagesdownload</br>
 `pip install googleimagesdownloads`</br>
-3. others: <a href="https://github.com/superRenh/Earthsquad/blob/master/requirement.txt">Requirement.txt</a>
+3. Install Pillows</br>
+`pip install Pillows`</br>
+4. others: <a href="https://github.com/superRenh/Earthsquad/blob/master/requirement.txt">Requirement.txt</a>
 ## Crawler NASA Image and Video Library爬取NASA公開圖庫
 <ul>
   <li><a href="https://images.nasa.gov/">NASA Image and Video Library</a></li></br>
@@ -36,11 +38,11 @@ Already download 6806 NASA Images to `output32` for creating Mosaic block, unles
 已經下載6806張太空圖片到`output32`資料夾作為馬賽克資料庫，除非你想創造自己的資料庫，否則可以跳過"爬取NASA公開圖庫"這個步驟。</br>
 ### Folders and modules 資料夾及模塊說明
 `output32:` 6806 NASA astronomical images, and resize to 32\*32 pixel to create Mosaic block database.</br>
-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;6806張NASA太空圖片，並resize為32\*32 pixel的馬賽克塊。</br>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;6806張NASA太空圖片，並resize為32\*32 pixel的馬賽克塊。</br>
 `download:`images that upload from web. 從web介面上傳的圖片。</br>
 `img:` result of Montage Mosaic consist of thousands mosaic block based on the uploaded image.</br>
 &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;存放最後製作好的蒙太奇大圖。</br>
-`puzzle.py:`</br>
+`puzzle.py:`The main module to create Montage創建蒙太奇主程式</br>
 `app.py:`
 ### Remote Connections to Flask Web Service 允許遠端訪問Flask web
 
