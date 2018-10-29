@@ -38,12 +38,12 @@ Already download 6806 NASA Images to `output32` for creating Mosaic block, unles
 已經下載6806張太空圖片到`output32`資料夾作為馬賽克資料庫，除非你想創造自己的資料庫，否則可以跳過"爬取NASA公開圖庫"這個步驟</br>
 ### Folders and modules 資料夾及模塊說明
 `output32:` 6806 NASA astronomical images, and resize to 32\*32 pixel to create Mosaic block database</br>
-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;6806張NASA太空圖片，並resize為32\*32 pixel的馬賽克塊</br>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;6806張NASA太空圖片，並resize為32\*32 pixel的馬賽克塊</br>
 `download:`images that upload from web 從web介面上傳的圖片</br>
 `img:` result of Montage Mosaic consist of thousands mosaic block based on the uploaded image</br>
-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;存放最後製作好的蒙太奇大圖</br>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;存放最後製作好的蒙太奇大圖</br>
 `puzzle.py:`The main module to create Montage and exclude the dark pixel(hsv:v<0.05) to make the clear image</br>
-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;創建蒙太奇主程式，並過濾暗色背景(hsv:v<0.05)讓整體圖片效果呈現更好</br>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;創建蒙太奇主程式，並過濾暗色背景(hsv:v<0.05)讓整體圖片效果呈現更好</br>
 `app.py:` The main module of Flask web Servic 網頁介面主程式
 ### Remote Connections to Flask Web Service 允許遠端訪問Flask web
 Make sure that your HTTP service is listenning on everywhere(0.0.0.0:80))</br>
